@@ -1,4 +1,6 @@
 # 4KMPV · Shiro Labs Edition
+<img width="958" height="573" alt="image" src="https://github.com/user-attachments/assets/cc053d3c-be59-446f-a07a-677a168e9e10" />
+
 
 Reproductor multimedia portable para Windows basado en **mpv**, con una interfaz moderna y coherente en blanco, negro y grises, detalles en cyan y acceso inmediato a perfiles de mejora **Anime4K**.
 
