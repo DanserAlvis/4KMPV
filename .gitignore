@@ -11,6 +11,7 @@
 /portable_config/state/*
 !/portable_config/state/.gitkeep
 /portable_backups/
+/dist/
 
 # Fuentes de diseño y variantes antiguas no usadas por el producto final
 /portable-assets/*-source.png

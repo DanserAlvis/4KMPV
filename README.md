@@ -32,7 +32,12 @@ Ejecuta `updater.bat`. El actualizador descarga los binarios nuevos de mpv, crea
 
 Los datos privados de reproducción (`state`), la caché y las copias de seguridad locales están excluidos del repositorio.
 
+Para construir un paquete limpio desde una copia completa del proyecto:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\portable-tools\build-release.ps1 -Version 1.0.0
+```
+
 ## Créditos
 
 4KMPV integra y personaliza proyectos de terceros, entre ellos [mpv](https://mpv.io/), [uosc](https://github.com/tomasklaen/uosc) y [Anime4K](https://github.com/bloc97/Anime4K). Cada componente conserva la licencia de su proyecto original.
-
