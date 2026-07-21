@@ -1,0 +1,33 @@
+4KMPV PORTABLE · SHIRO PLAYER UI
+================================
+
+INICIO
+  Ejecuta 4KMPV.exe para usar el icono personalizado. El lanzador localiza
+  mpv.exe en su misma carpeta, así que sigue funcionando al mover el paquete.
+  Toda la configuración está en portable_config.
+
+ANIME4K
+  Ctrl+1  Modo A (1080p)
+  Ctrl+2  Modo B (720p)
+  Ctrl+3  Modo AA (máxima calidad)
+  Ctrl+4  Modo ligero
+  Ctrl+9  Automático por resolución
+  Ctrl+0  Desactivar
+
+  También puedes usar el botón de estrellas en la barra inferior. Cada clic
+  avanza: Desactivado > A > B > AA > Ligero > Desactivado.
+
+HERRAMIENTAS
+  Pulsa D o el botón de ajustes para abrir diagnóstico, restaurar la
+  última sesión, revisar la caché o limpiarla.
+
+ACTUALIZACIÓN SEGURA
+  updater.bat crea primero una copia en portable_backups, valida que contenga
+  todos los menús y restaura portable_config después de actualizar mpv. Luego
+  compara la integridad de los archivos protegidos. Conserva las tres copias
+  más recientes. Para recuperar la última manualmente, ejecuta:
+  portable-tools\restore-portable.ps1
+
+PORTABILIDAD
+  No se necesita instalación. Historial, posiciones, sesiones, capturas,
+  caché, perfiles y preferencias permanecen junto al reproductor.

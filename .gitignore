@@ -1,0 +1,32 @@
+# Runtime de mpv (se distribuye como paquete de Release, no en el historial Git)
+/mpv.exe
+/mpv.com
+/d3dcompiler_43.dll
+/doc/
+/portable_config/scripts/uosc/bin/ziggy-linux
+/portable_config/scripts/uosc/bin/ziggy-darwin
+
+# Datos locales y privados
+/portable_config/cache/
+/portable_config/state/*
+!/portable_config/state/.gitkeep
+/portable_backups/
+
+# Fuentes de diseño y variantes antiguas no usadas por el producto final
+/portable-assets/*-source.png
+/portable-assets/*-legacy.png
+/portable-assets/*-legacy.ico
+/portable-assets/mpv-icon-original.ico
+
+# Archivos temporales del sistema y herramientas
+Thumbs.db
+Desktop.ini
+*.tmp
+*.log
+*.bak
+*.zip
+*.7z
+
+# Metadatos internos de asistentes/editores
+/.agents/
+/.codex/
